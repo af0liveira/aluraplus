@@ -84,3 +84,8 @@ body {
     background-color: transparent;
     border: 1px solid var(--header-text-color);
 }
+
+.container__footnote {
+    color: var(--footnote-text-color);
+    font-size: var(--footnote-font-size);
+}
