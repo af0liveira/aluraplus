@@ -33,3 +33,12 @@ body {
     font-weight: var(--regular-font-weight);
     font-size: var(--regular-font-size);
 }
+
+.main {
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
