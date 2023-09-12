@@ -96,6 +96,11 @@ body {
     border: 1px solid var(--header-text-color);
 }
 
+.container__button {
+    text-align: center;
+    width: fit-content;
+}
+
 .container__footnote {
     color: var(--footnote-text-color);
     font-size: var(--footnote-font-size);
