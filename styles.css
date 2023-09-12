@@ -25,3 +25,11 @@
     --regular-font-weight: 400;
     --bold-font-weight: 700;
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--regular-text-color);
+    font-family: var(--primary-font-family);
+    font-weight: var(--regular-font-weight);
+    font-size: var(--regular-font-size);
+}
