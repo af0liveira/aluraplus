@@ -27,6 +27,7 @@
 }
 
 body {
+    box-sizing: border-box;
     background-color: var(--background-color);
     color: var(--regular-text-color);
     font-family: var(--primary-font-family);
@@ -68,4 +69,18 @@ body {
 .container__img {
     margin-top: 0.4rem;
     margin-bottom: 1rem;
+}
+
+.container__button {
+    color: var(--header-text-color);
+    background-color: var(--button-fill-color);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 85%;
+}
+
+.secondary__button {
+    background-color: transparent;
+    border: 1px solid var(--header-text-color);
 }
