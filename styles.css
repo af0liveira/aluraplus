@@ -44,6 +44,11 @@ body {
     text-align: center;
 }
 
+.secondary {
+    text-align: left;
+}
+
+
 .container {
     display: flex;
     width: 100vw;
@@ -71,6 +76,12 @@ body {
     margin-bottom: 1rem;
 }
 
+.secondary__img {
+    width: 35vw;
+    /* padding: 10%; */
+    margin: 0 5vw 0 11vw;
+}
+
 .container__button {
     color: var(--header-text-color);
     background-color: var(--button-fill-color);
@@ -88,4 +99,21 @@ body {
 .container__footnote {
     color: var(--footnote-text-color);
     font-size: var(--footnote-font-size);
+}
+
+.container__description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-right: 8vw;
+}
+
+.description__title {
+    color: var(--header-text-color);
+    font-size: var(--big-heading-font-size);
+    font-weight: var(--bold-font-weight);
+}
+
+.description__text {
+   color: var(--regular-text-color); 
 }
