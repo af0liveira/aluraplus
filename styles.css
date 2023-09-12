@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-color: #00030C;
+    --button-fill-color: #167bf7;
+    --button-action-color: #ec2f46;
+
+    --header-text-color: #fff;
+    --regular-text-color: #f9f9f9;
+    --footnote-text-color: #c0c0c0;
+
+    --primary-font-family: 'Inter', sans-serif;
+    
+    --big-heading-font-size: 3rem;
+    --medium-heading-font-size: 2rem;
+    --small-heading-font-size: 1.75rem;
+    --regular-font-size: 1rem;
+    --footnote-font-size: 0.875rem;
+
+    --regular-font-weight: 400;
+    --bold-font-weight: 700;
+}
