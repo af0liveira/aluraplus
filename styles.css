@@ -173,4 +173,5 @@ body {
     color: var(--header-text-color);
     font-size: var(--regular-font-size);
     font-weight: var(--regular-font-weight);
+    text-decoration: none;
 }
